@@ -27,13 +27,13 @@ fun main() {
 
     // 3. Palindrome
 
-    print("Enter a string : ")
-    val string = readln()
+    print("Enter a string  : ")
+    val a = readln()
 
-    if (string == string.reversed()) {
-        print("$string is palindrome.")
+    if ( a == a.reversed()) {
+        print("$ a is palindrome.")
     } else {
-        print("$string is not palindrome.")
+        print("$a is not palindrome.")
     }
 
 
